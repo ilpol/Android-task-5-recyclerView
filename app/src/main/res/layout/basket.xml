@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f5d6f4"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="152dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:background="#4CAF50"
+            android:text="Корзина"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="152dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/txtTitle"
+            android:text="Положить яблоко" />
+    </RelativeLayout>
+</LinearLayout>
